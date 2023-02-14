@@ -1,0 +1,69 @@
+main{
+  height: 100vh;
+  width: 100vw;
+}
+
+form{
+  height: 70%;
+  justify-content: space-around;
+}
+
+h2{
+    color: #015871 !important;
+    font-family: serif !important;
+    font-weight: bold;
+}
+
+p{
+  color: #015871;
+}
+
+a{
+  color: #015871 !important;
+  font-family: serif !important;
+  font-weight: bold;
+}
+
+#formIndex, #form-cadastro, #containerRecados{
+  background-color: #b7e9eb76;
+}
+
+.toast-position{
+  top: 50px;
+  right: 50px;
+}
+
+.btn-padrao{
+  background-color: #fffeea;
+  color: #015871;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.btn-padrao:hover{
+  background-color: #015871;
+  color: #fffeea;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.gradiente{
+  background: linear-gradient(45deg, #6096B4, #93BFCF, #BDCDD6, #EEE9DA);
+  background-size: 300% 300%;
+  animation: colors 7s ease infinite;
+}
+
+@keyframes colors {
+ 0%{
+  background-position: 0% 50%;
+ }  
+
+ 50%{
+  background-position: 100% 50%;
+ }
+
+ 100%{
+  background-position: 0% 50%;
+ }
+}
+
